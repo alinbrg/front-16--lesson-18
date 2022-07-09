@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>lesson 18</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<section>
+			<button class="btn delete" id="delete-btn">Delete this button</button>
+
+			<div class="characters-list">
+				<!-- <div class="character-card">
+					<div class="char-info">
+						<div class="char-desc">
+							<h3 class="name">Harry potter</h3>
+							<span class="house">House: Griffindor</span>
+							<span class="actor hidden">Deniel radcliffe</span>
+						</div>
+						<div class="char-img">
+							<img src="http://hp-api.herokuapp.com/images/harry.jpg" alt="" />
+						</div>
+					</div>
+					<div class="btns">
+						<button class="btn show-info">Info</button
+						><button class="btn delete-card">Delete</button>
+					</div>
+				</div> -->
+			</div>
+		</section>
+
+		<section>
+			<h3>Async Functions</h3>
+			<div class="async-btns">
+				<div>
+					<button class="btn start-timeout">start timeout</button>
+					<button class="btn stop stop-timeout">stop timeout</button>
+				</div>
+				<div>
+					<button class="btn start-interval">start interval</button>
+					<button class="btn stop stop-interval">stop interval</button>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<!-- https://picsum.photos/   რენდომ ფოტოებისთვის -->
+			<div class="slider-section">
+				<div class="slider-wrapper">
+					<div class="slider-item">
+						<img src="https://picsum.photos/1600/600?random=1" alt="" />
+						<div class="slider-info">
+							<h3>Slider 1</h3>
+							<p>slider 1 description</p>
+						</div>
+					</div>
+					<div class="slider-item">
+						<img src="https://picsum.photos/1600/600?random=2" alt="" />
+						<div class="slider-info">
+							<h3>Slider 2</h3>
+							<p>slider 2 description</p>
+						</div>
+					</div>
+					<div class="slider-item">
+						<img src="https://picsum.photos/1600/600?random=3" alt="" />
+						<div class="slider-info">
+							<h3>Slider 3</h3>
+							<p>slider 3 description</p>
+						</div>
+					</div>
+				</div>
+				<div class="pagination">
+					<button class="pg-btn btn" id="prev"><<</button>
+					<button class="pg-btn btn" id="next">>></button>
+				</div>
+			</div>
+
+			<div class="auto-sliding">
+				<button class="pg-btn btn" id="start-auto">start auto sliding</button>
+				<button class="pg-btn btn" id="stop-auto">stop auto sliding</button>
+			</div>
+		</section>
+		<script src="main.js"></script>
+	</body>
+</html>
